@@ -1,0 +1,3 @@
+# OddsPulse 运行依赖
+httpx>=0.27,<1
+pydantic>=2.5,<3

@@ -1,0 +1,100 @@
+{
+  "source": "sample",
+  "fetched": 40,
+  "interesting_top_n": 10,
+  "signals": [
+    {
+      "market_id": "sample-035",
+      "source": "sample",
+      "kind": "sharp_move",
+      "detail": "概率 0.580 -> 0.523（变化 -0.057）"
+    },
+    {
+      "market_id": "sample-008",
+      "source": "sample",
+      "kind": "sharp_move",
+      "detail": "概率 0.404 -> 0.462（变化 +0.058）"
+    },
+    {
+      "market_id": "sample-014",
+      "source": "sample",
+      "kind": "sharp_move",
+      "detail": "概率 0.619 -> 0.673（变化 +0.054）"
+    },
+    {
+      "market_id": "sample-017",
+      "source": "sample",
+      "kind": "sharp_move",
+      "detail": "概率 0.614 -> 0.544（变化 -0.070）"
+    },
+    {
+      "market_id": "sample-034",
+      "source": "sample",
+      "kind": "sharp_move",
+      "detail": "概率 0.356 -> 0.418（变化 +0.062）"
+    }
+  ],
+  "verdicts": [
+    {
+      "market_id": "sample-015",
+      "signal": "normal",
+      "confidence": 0.9,
+      "reason": "无显著异常信号"
+    },
+    {
+      "market_id": "sample-035",
+      "signal": "watch",
+      "confidence": 0.7,
+      "reason": "检测到概率急变，按规则标记为值得关注"
+    },
+    {
+      "market_id": "sample-032",
+      "signal": "normal",
+      "confidence": 0.9,
+      "reason": "无显著异常信号"
+    },
+    {
+      "market_id": "sample-008",
+      "signal": "watch",
+      "confidence": 0.7,
+      "reason": "检测到概率急变，按规则标记为值得关注"
+    },
+    {
+      "market_id": "sample-037",
+      "signal": "normal",
+      "confidence": 0.9,
+      "reason": "无显著异常信号"
+    },
+    {
+      "market_id": "sample-014",
+      "signal": "watch",
+      "confidence": 0.7,
+      "reason": "检测到概率急变，按规则标记为值得关注"
+    },
+    {
+      "market_id": "sample-017",
+      "signal": "watch",
+      "confidence": 0.7,
+      "reason": "检测到概率急变，按规则标记为值得关注"
+    },
+    {
+      "market_id": "sample-000",
+      "signal": "normal",
+      "confidence": 0.9,
+      "reason": "无显著异常信号"
+    },
+    {
+      "market_id": "sample-034",
+      "signal": "watch",
+      "confidence": 0.7,
+      "reason": "检测到概率急变，按规则标记为值得关注"
+    },
+    {
+      "market_id": "sample-022",
+      "signal": "normal",
+      "confidence": 0.9,
+      "reason": "无显著异常信号"
+    }
+  ],
+  "generated_at": "2026-09-26T17:07:49.797777"
+}
